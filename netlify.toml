@@ -1,4 +1,4 @@
-# 指定 Node.js 版本为 22
+# 指定 Node.js  版本为 22
 [build.environment]
   NODE_VERSION = "22"
 
