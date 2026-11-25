@@ -1,0 +1,11 @@
+# 指定 Node.js 版本为 22
+[build.environment]
+  NODE_VERSION = "22"
+
+# 强制为所有请求注入跨域响应头
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization, X-Requested-With"
